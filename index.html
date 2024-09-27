@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="hedder box-shadow">Currency Convert</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="number" placeholder="Your Amount" value="">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-type">
+                        <div class="image">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="INDIA FLAG">
+                        </div>
+                        <select name="from" id="select-cuntry1">
+                            <!-- <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option> -->
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-duotone fa-solid fa-right-left fa-fade"></i>
+                <div class="to">
+                    <p>TO</p>
+                    <div class="select-type">
+                        <div class="image">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="INDIA FLAG">
+                        </div>
+                        <select name="to" id="select-cuntry2">
+                            <!-- <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option>
+                            <option value="CUNTRY">CUNTRY</option> -->
+                        </select>
+                    </div>       
+                </div>             
+            </div>
+            <div class="convert-btn box-shadow">00 USD = 00 INR</div>
+            <button class="button">Convert Now</button>
+        </form>     
+    </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
