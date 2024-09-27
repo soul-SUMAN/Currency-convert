@@ -2,6 +2,11 @@
 <br>
 <p>A simple and intuitive web-based currency converter that allows users to convert between different currencies using real-time exchange rates. The application is built using HTML, CSS, and JavaScript, and it fetches live data from a currency exchange API.</p>
 
+<h2>Live demo</h2>
+<p>
+  Live web page link: https://soul-suman.github.io/Currency-convert/
+</p>
+
 <h2>Features</h2>
 <ul>
 <li>Real-time conversion: Fetches the latest exchange rates using an API.</li>
